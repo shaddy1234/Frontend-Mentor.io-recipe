@@ -4,6 +4,78 @@
     box-sizing: border-box;
 }
 :root {
-    --primary-color:hsl(332, 51%, 32%)
-    --secondary-color:hsl(14, 45%, 36%)
+    --primary-color:hsl(332, 51%, 45%);
+    --secondary-color:hsl(17, 66%, 57%);
+    --tertiary-color:hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
+}
+body{
+    background-color: var(--secondary-color);
+    font-size: 16px;
+    font-family:sans-serif;
+    font-weight: 400;
+}
+.all {
+    background-color: var(--tertiary-color);
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.all img {
+    width: 100%;
+}
+.div-1 {
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+}
+.div-1 li {
+    margin-left: 25px;
+    padding: 10px;
+}
+.p-main {
+    color: var(--primary-color);
+}
+
+section {
+    margin: 25px;
+}
+section li {
+    margin-left: 25px;
+    padding: 5px;
+}
+/* Utility classes */
+.text-xxl {
+    font-size: 2.2rem;
+    margin: 10px;
+}
+.text-xl {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+    margin-left: 0;
+    padding: 10px 0;
+}
+.text-md {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: none;
+    padding: 12px;
+    text-align: left;
+}
+td:nth-child(2){
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+tr {
+    border-bottom: 1px solid #463d3d;
 }
